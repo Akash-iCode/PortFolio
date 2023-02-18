@@ -1,0 +1,98 @@
+.about__container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 4rem;
+}
+
+.section__title{
+    font-size: 2.6rem;
+    color: rgb(20, 20, 20);
+}
+
+.about__img{
+    width: 350px;
+    border-radius: 1.5rem;
+    justify-self: center;
+}
+
+.about__info {
+    grid-template-columns: repeat(3, 140px);
+    gap: 0.5rem;
+    margin-bottom: var(--mb-2);
+}
+
+.about__box {
+    color:rgb(213, 213, 213);
+    background-color: rgb(50, 50, 50);
+    border: 1px sold rgba(0,0,0,0.1);
+    border-radius: 0.75rem;
+    text-align: center;
+    padding: 1rem 1.25rem;
+}
+
+.about__icon {
+    font-size: 1.5rem;
+    color:rgb(213, 213, 213);
+    background-color: rgb(50, 50, 50);
+    margin-bottom: var(---mb-0-5);
+}
+
+.about__title {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+    color:rgb(213, 213, 213);
+    background-color: rgb(50, 50, 50);
+}
+
+.about__subtitle{
+    font-size: var(tiny-font-size);
+}
+
+  .about__description {
+    padding: 0 4rem 0 0;
+    margin-bottom: var(--mab-2-5);
+    color: rgb(50, 50, 50);
+    font-size: 1rem;
+  } 
+
+
+  /*Large Devices*/
+
+  @media screem and (max-width: 768px){
+    .about__container {
+        grid-template-columns: 1fr;
+        row-gap: 2.5rem;
+    }
+    .about__img{
+        width: 220px;
+    }
+    .about__box{
+        padding: 0.75rem 0.5   rem;
+    }
+    .about__data{
+        text-align: center;
+    }
+    .about__info{
+        justify-content: center;
+    }
+    .about__description{
+        padding: 0 5rem;
+        margin-bottom: 2rem;
+    }
+  }
+  @media screem and (max-width: 576px){
+    .about__info{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .about__description{
+        padding: 0;
+    }
+  }
+  @media screem and (max-width: 350px){
+    .about__info{
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+
+  

@@ -1,0 +1,102 @@
+.skills__container {
+    grid-template-columns: repeat(2, 360px);
+    column-gap: 3rem;
+    justify-content: center;
+}
+
+.skills__content{
+    color:rgb(213, 213, 213);
+    background-color: rgb(50, 50, 50);
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 2rem 4rem;
+    border-radius: 1.25rem;
+}
+
+.skills__title {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    text-align: center;
+    margin-bottom: var(--mb-1-5);
+    color:rgb(213, 213, 213);
+    background-color: rgb(50, 50, 50);
+}
+
+.skills__box{
+    display: flex;
+    justify-content: baseline;
+    column-gap: 2.5rem;
+    color:rgb(213, 213, 213);
+    background-color: rgb(50, 50, 50);
+}
+
+.skills__group{
+    display: grid;
+    align-items: flex-start;
+    row-gap: 1rem;
+    color:rgb(213, 213, 213);
+    background-color: rgb(50, 50, 50);
+}
+
+.skills__data {
+    display : flex;
+    column-gap: 0.5rem;
+    color:rgb(213, 213, 213);
+    background-color: rgb(50, 50, 50);
+}
+
+.skills .bx-badge-check {
+    font-size: 1rem;
+    color:rgb(213, 213, 213);
+    background-color: rgb(50, 50, 50);
+}
+
+.skills__name{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    line-height: 18px;
+    color:rgb(213, 213, 213);
+    background-color: rgb(50, 50, 50);
+}
+
+.skills__level {
+    font-size: var(--tiny-font-size);
+    color:rgb(213, 213, 213);
+    background-color: rgb(50, 50, 50);
+}
+
+.skill__level{
+    color: rgb(50, 50, 50);
+    font-size: 1rem;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .skills__container{
+        grid-template-columns: max-content;
+        row-gap: 2rem;
+    }
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 576px) {
+    .skills__container{
+        grid-template-columns: 1fr;;
+    }
+    .skills__content{
+        padding: 1.5rem;;
+    }
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    .skills__box{
+        column-gap: 1.25rem;;
+    }
+
+    .skills__name{
+        font-size: var(--small-font-size);
+        color:rgb(213, 213, 213);
+        background-color: rgb(50, 50, 50);
+    }
+  }
