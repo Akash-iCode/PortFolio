@@ -12,7 +12,7 @@ const Footer = () => {
                 </li>
 
                 <li>
-                    <a href="#portfolio" className="footer__link">Projects</a>
+                    <a href="#projects" className="footer__link">Projects</a>
                 </li>
 
                 <li>
@@ -20,9 +20,9 @@ const Footer = () => {
                 </li>
             </ul>
             <div className="footer__social">
-                <a href="www.linkedin.com" className="footer__social-icon" target="_blank">   <i class="bx bxl-linkedin-square"></i> </a>
-                <a href="www.instagram.com" className="footer__social-icon" target="_blank">   <i class="bx bxl-instagram-alt"></i> </a>
-                <a href="www.github.com" className="footer__social-icon" target="_blank">   <i class="bx bxl-github"></i>  </a>
+                <a href="https://www.linkedin.com/in/akash-bhingare-738245234/" className="footer__social-icon" target="_blank" rel="noopener noreferrer">   <i class="bx bxl-linkedin-square"></i> </a>
+                <a href="https://www.instagram.com" className="footer__social-icon" target="_blank" rel="noopener noreferrer">   <i class="bx bxl-instagram-alt"></i> </a>
+                <a href="https://github.com/Akash-iCode" className="footer__social-icon" target="_blank" rel="noopener noreferrer">   <i class="bx bxl-github"></i>  </a>
             </div>
             <span className="footer__copy" >
                 &#169; Akashbhingare. All rigths reserved

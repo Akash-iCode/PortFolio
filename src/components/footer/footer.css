@@ -8,7 +8,7 @@
 }
 
 .footer__title,.footer__link {
-    color:rgb(184, 184, 184);
+    color:rgb(255, 255, 255);
 }
 
 .footer__title {
@@ -17,7 +17,7 @@
 }
 
 .footer__link:hover {
-    color:rgb(184, 184, 184);
+    color:rgb(255, 255, 255);
 }
 
 .footer__list{
@@ -47,7 +47,7 @@
 }
 
 .footer__social-link:hover{
-    color:rgb(184, 184, 184);
+    color:rgb(255, 255, 255);
 }
 
 .footer__copy{
@@ -56,4 +56,8 @@
     color:rgb(184, 184, 184);;
     text-align: center;
     font-size: var(--smaller-font-size);
+}
+
+.boldEvent{
+    color:rgb(255, 255, 255) 
 }

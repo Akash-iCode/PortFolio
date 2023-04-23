@@ -11,7 +11,9 @@
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-1-5);
 }
-
+.boldEvent{
+    color: rgb(255, 255, 255);
+}
 .contact__info {
     display: grid;
     row-gap: 1rem;

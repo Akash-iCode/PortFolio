@@ -11,7 +11,9 @@
 .nav__logo{
     color: aliceblue;
 }
-
+.boldEvent{
+    color: rgb(255, 255, 255);
+}
 .nav__logo:hover{
     text-shadow: 2px 4px 4px red;
 }

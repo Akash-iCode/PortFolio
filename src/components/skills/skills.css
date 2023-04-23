@@ -36,6 +36,9 @@
     color:rgb(213, 213, 213);
     background-color: rgb(50, 50, 50);
 }
+.boldWhiten{
+    color: rgb(255, 255, 255);
+}
 
 .skills__data {
     display : flex;

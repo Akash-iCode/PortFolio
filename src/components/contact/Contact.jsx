@@ -13,8 +13,8 @@ const Contact = () => {
   return (
 
     <section className="contact section" id="contact">
-        <h2 className="section__title">Get in touch </h2>
-        <span className="section__subtitle">----------------- Contact Me -----------------</span>
+        <h2 className="section__title"><i class='bx bx-mail-send bx-tada' ></i> Get in touch </h2>
+        <span className="section__subtitle"><b className='boldEvent'>------------------- Reach Out To Me -----------------</b></span>
 
         <div className="contact__container contat grid">
             <div className="contact__content">

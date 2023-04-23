@@ -14,7 +14,9 @@ section{
     border-radius: 1.5rem;
     margin-bottom: var(--mb-3);
 }
-
+.boldEvent{
+    color: rgb(255, 255, 255);
+}
 .testimonial__img {
     width: 60px;
     border-radius: 3rem;

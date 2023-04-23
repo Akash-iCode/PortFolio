@@ -15,8 +15,15 @@ function Frontend() {
                     <div className="skills__data">
                             <i className="bx bx-badge-check"></i>
                             <div>
-                                <h3 className="skills__name">CSS</h3>
+                                <h3 className="skills__name">Std. CSS</h3>
                                 <span className="skill__level">Advanced</span>
+                            </div>
+                    </div>
+                    <div className="skills__data">
+                            <i className="bx bx-badge-check"></i>
+                            <div>
+                                <h3 className="skills__name">TailWind</h3>
+                                <span className="skill__level">Intermidiate</span>
                             </div>
                     </div>
                     <div className="skills__data">
@@ -38,14 +45,14 @@ function Frontend() {
                     <div className="skills__data">
                             <i className="bx bx-badge-check"></i>
                             <div>
-                                <h3 className="skills__name">Git</h3>
+                                <h3 className="skills__name">React</h3>
                                 <span className="skill__level">Intermidiate</span>
                             </div>
                     </div>
                     <div className="skills__data">
                             <i className="bx bx-badge-check"></i>
                             <div>
-                                <h3 className="skills__name">React</h3>
+                                <h3 className="skills__name">Angular</h3>
                                 <span className="skill__level">Intermidiate</span>
                             </div>
                     </div> 
